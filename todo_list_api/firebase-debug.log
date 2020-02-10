@@ -1,0 +1,432 @@
+[debug] [2020-01-26T14:29:29.573Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T14:29:29.575Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Badi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-01-26T14:29:29.575Z] CLI Version:   7.10.0
+[debug] [2020-01-26T14:29:29.575Z] Platform:      win32
+[debug] [2020-01-26T14:29:29.575Z] Node Version:  v10.15.3
+[debug] [2020-01-26T14:29:29.576Z] Time:          Sun Jan 26 2020 16:29:29 GMT+0200 (Eastern European Standard Time)
+[debug] [2020-01-26T14:29:29.576Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T14:29:29.576Z] 
+[debug] [2020-01-26T14:29:29.583Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-26T14:29:29.584Z] > authorizing via signed-in user
+[debug] [2020-01-26T14:29:29.584Z] [iam] checking project todolist-c3c8f for permissions ["firebase.projects.get"]
+[debug] [2020-01-26T14:29:29.585Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/todolist-c3c8f:testIamPermissions  
+
+[debug] [2020-01-26T14:29:29.977Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-26T14:29:29.978Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/todolist-c3c8f  
+ 
+[debug] [2020-01-26T14:29:30.360Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\WORK\GITHUB Workspace\todo_list_api'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\WORK\GITHUB Workspace\todo_list_api\functions" for Cloud Functions...
+[debug] [2020-01-26T14:29:32.905Z] [worker-~diagnostic~-41f8c705-fe4b-46fd-aaa3-7221642828ed]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\20524
+[debug] [2020-01-26T14:29:32.905Z] [worker-~diagnostic~-41f8c705-fe4b-46fd-aaa3-7221642828ed]: BUSY
+[debug] [2020-01-26T14:29:33.295Z] [runtime-status] [20524] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:29:33.297Z] [runtime-status] [20524] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:29:33.315Z] [worker-~diagnostic~-41f8c705-fe4b-46fd-aaa3-7221642828ed]: exited
+[debug] [2020-01-26T14:29:33.315Z] [worker-~diagnostic~-41f8c705-fe4b-46fd-aaa3-7221642828ed]: FINISHED
+[debug] [2020-01-26T14:29:47.344Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:29:48.354Z] [worker-~diagnostic~-a928b9de-4876-4ea6-9111-b9bca07b9ea3]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\11408
+[debug] [2020-01-26T14:29:48.355Z] [worker-~diagnostic~-a928b9de-4876-4ea6-9111-b9bca07b9ea3]: BUSY
+[debug] [2020-01-26T14:29:48.719Z] [runtime-status] [11408] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:29:48.720Z] [runtime-status] [11408] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:29:48.741Z] [worker-~diagnostic~-a928b9de-4876-4ea6-9111-b9bca07b9ea3]: exited
+[debug] [2020-01-26T14:29:48.741Z] [worker-~diagnostic~-a928b9de-4876-4ea6-9111-b9bca07b9ea3]: FINISHED
+[debug] [2020-01-26T14:33:01.075Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\utils\admin.js changed, reloading triggers
+[debug] [2020-01-26T14:33:01.950Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\utils\admin.js changed, reloading triggers
+[debug] [2020-01-26T14:33:02.962Z] [worker-~diagnostic~-45122369-99c8-4fb7-82ba-ba703930ff20]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\8780
+[debug] [2020-01-26T14:33:02.962Z] [worker-~diagnostic~-45122369-99c8-4fb7-82ba-ba703930ff20]: BUSY
+[debug] [2020-01-26T14:33:03.345Z] [runtime-status] [8780] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:33:03.346Z] [runtime-status] [8780] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:33:03.369Z] [worker-~diagnostic~-45122369-99c8-4fb7-82ba-ba703930ff20]: exited
+[debug] [2020-01-26T14:33:03.369Z] [worker-~diagnostic~-45122369-99c8-4fb7-82ba-ba703930ff20]: FINISHED
+[debug] [2020-01-26T14:33:15.562Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:33:16.566Z] [worker-~diagnostic~-c43697c1-8beb-4121-a59f-94f3a1a99c3b]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\17244
+[debug] [2020-01-26T14:33:16.566Z] [worker-~diagnostic~-c43697c1-8beb-4121-a59f-94f3a1a99c3b]: BUSY
+[debug] [2020-01-26T14:33:16.788Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:33:16.967Z] [runtime-status] [17244] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:33:16.968Z] [runtime-status] [17244] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:33:16.988Z] [worker-~diagnostic~-c43697c1-8beb-4121-a59f-94f3a1a99c3b]: exited
+[debug] [2020-01-26T14:33:16.988Z] [worker-~diagnostic~-c43697c1-8beb-4121-a59f-94f3a1a99c3b]: FINISHED
+[debug] [2020-01-26T14:33:17.792Z] [worker-~diagnostic~-55cf4610-fb55-49e1-8c8a-fb2fc2f800a5]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\16604
+[debug] [2020-01-26T14:33:17.792Z] [worker-~diagnostic~-55cf4610-fb55-49e1-8c8a-fb2fc2f800a5]: BUSY
+[debug] [2020-01-26T14:33:18.159Z] [runtime-status] [16604] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:33:18.161Z] [runtime-status] [16604] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:33:18.181Z] [worker-~diagnostic~-55cf4610-fb55-49e1-8c8a-fb2fc2f800a5]: exited
+[debug] [2020-01-26T14:33:18.181Z] [worker-~diagnostic~-55cf4610-fb55-49e1-8c8a-fb2fc2f800a5]: FINISHED
+[debug] [2020-01-26T14:33:21.635Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:33:22.638Z] [worker-~diagnostic~-f856e907-ff7f-4e31-b510-fbff1d85778e]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\22452
+[debug] [2020-01-26T14:33:22.638Z] [worker-~diagnostic~-f856e907-ff7f-4e31-b510-fbff1d85778e]: BUSY
+[debug] [2020-01-26T14:33:23.006Z] [runtime-status] [22452] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:33:23.007Z] [runtime-status] [22452] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:33:23.026Z] [worker-~diagnostic~-f856e907-ff7f-4e31-b510-fbff1d85778e]: exited
+[debug] [2020-01-26T14:33:23.026Z] [worker-~diagnostic~-f856e907-ff7f-4e31-b510-fbff1d85778e]: FINISHED
+[debug] [2020-01-26T14:33:26.814Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:33:27.817Z] [worker-~diagnostic~-7c546c05-b867-43ed-ab0f-464fae2b8d51]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\22392
+[debug] [2020-01-26T14:33:27.817Z] [worker-~diagnostic~-7c546c05-b867-43ed-ab0f-464fae2b8d51]: BUSY
+[debug] [2020-01-26T14:33:28.175Z] [runtime-status] [22392] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:33:28.177Z] [runtime-status] [22392] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:33:28.196Z] [worker-~diagnostic~-7c546c05-b867-43ed-ab0f-464fae2b8d51]: exited
+[debug] [2020-01-26T14:33:28.196Z] [worker-~diagnostic~-7c546c05-b867-43ed-ab0f-464fae2b8d51]: FINISHED
+[debug] [2020-01-26T14:33:29.933Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:33:30.937Z] [worker-~diagnostic~-0b8ebb30-ac7c-475b-815b-fffde64e51f0]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\18776
+[debug] [2020-01-26T14:33:30.937Z] [worker-~diagnostic~-0b8ebb30-ac7c-475b-815b-fffde64e51f0]: BUSY
+[debug] [2020-01-26T14:33:31.298Z] [runtime-status] [18776] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:33:31.299Z] [runtime-status] [18776] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:33:31.318Z] [worker-~diagnostic~-0b8ebb30-ac7c-475b-815b-fffde64e51f0]: exited
+[debug] [2020-01-26T14:33:31.318Z] [worker-~diagnostic~-0b8ebb30-ac7c-475b-815b-fffde64e51f0]: FINISHED
+[debug] [2020-01-26T14:34:25.231Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:34:26.235Z] [worker-~diagnostic~-8eaa7a0c-8dbe-4143-9bf1-6fd426a26c76]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\12208
+[debug] [2020-01-26T14:34:26.235Z] [worker-~diagnostic~-8eaa7a0c-8dbe-4143-9bf1-6fd426a26c76]: BUSY
+[debug] [2020-01-26T14:34:26.606Z] [runtime-status] [12208] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:34:26.608Z] [runtime-status] [12208] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:34:26.627Z] [worker-~diagnostic~-8eaa7a0c-8dbe-4143-9bf1-6fd426a26c76]: exited
+[debug] [2020-01-26T14:34:26.627Z] [worker-~diagnostic~-8eaa7a0c-8dbe-4143-9bf1-6fd426a26c76]: FINISHED
+[debug] [2020-01-26T14:34:43.489Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:34:44.494Z] [worker-~diagnostic~-e09c4650-fcec-4d04-945f-14d3f821736d]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\14848
+[debug] [2020-01-26T14:34:44.495Z] [worker-~diagnostic~-e09c4650-fcec-4d04-945f-14d3f821736d]: BUSY
+[debug] [2020-01-26T14:34:44.872Z] [runtime-status] [14848] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:34:44.873Z] [runtime-status] [14848] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:34:44.893Z] [worker-~diagnostic~-e09c4650-fcec-4d04-945f-14d3f821736d]: exited
+[debug] [2020-01-26T14:34:44.893Z] [worker-~diagnostic~-e09c4650-fcec-4d04-945f-14d3f821736d]: FINISHED
+[debug] [2020-01-26T14:34:49.669Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\getTodos.js changed, reloading triggers
+[debug] [2020-01-26T14:34:50.672Z] [worker-~diagnostic~-f5069a4c-cdb2-4bba-bc23-e58c1b491474]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\22672
+[debug] [2020-01-26T14:34:50.672Z] [worker-~diagnostic~-f5069a4c-cdb2-4bba-bc23-e58c1b491474]: BUSY
+[debug] [2020-01-26T14:34:51.052Z] [runtime-status] [22672] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:34:51.053Z] [runtime-status] [22672] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:34:51.074Z] [worker-~diagnostic~-f5069a4c-cdb2-4bba-bc23-e58c1b491474]: exited
+[debug] [2020-01-26T14:34:51.075Z] [worker-~diagnostic~-f5069a4c-cdb2-4bba-bc23-e58c1b491474]: FINISHED
+[debug] [2020-01-26T14:34:54.085Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\getTodos.js changed, reloading triggers
+[debug] [2020-01-26T14:34:55.089Z] [worker-~diagnostic~-95da31a0-8ddd-4ec5-ba62-484381f964ef]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\15756
+[debug] [2020-01-26T14:34:55.089Z] [worker-~diagnostic~-95da31a0-8ddd-4ec5-ba62-484381f964ef]: BUSY
+[debug] [2020-01-26T14:34:55.500Z] [runtime-status] [15756] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:34:55.502Z] [runtime-status] [15756] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:34:55.521Z] [worker-~diagnostic~-95da31a0-8ddd-4ec5-ba62-484381f964ef]: exited
+[debug] [2020-01-26T14:34:55.521Z] [worker-~diagnostic~-95da31a0-8ddd-4ec5-ba62-484381f964ef]: FINISHED
+[debug] [2020-01-26T14:35:04.412Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:35:05.416Z] [worker-~diagnostic~-365db6fd-85c3-4ed2-871f-c68668e0aa53]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\2864
+[debug] [2020-01-26T14:35:05.416Z] [worker-~diagnostic~-365db6fd-85c3-4ed2-871f-c68668e0aa53]: BUSY
+[debug] [2020-01-26T14:35:05.788Z] [runtime-status] [2864] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:35:05.790Z] [runtime-status] [2864] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:35:05.809Z] [worker-~diagnostic~-365db6fd-85c3-4ed2-871f-c68668e0aa53]: exited
+[debug] [2020-01-26T14:35:05.809Z] [worker-~diagnostic~-365db6fd-85c3-4ed2-871f-c68668e0aa53]: FINISHED
+[debug] [2020-01-26T14:35:59.472Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:36:00.478Z] [worker-~diagnostic~-79cb2148-ea1d-455e-91ec-0030a8afd590]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\18684
+[debug] [2020-01-26T14:36:00.479Z] [worker-~diagnostic~-79cb2148-ea1d-455e-91ec-0030a8afd590]: BUSY
+[debug] [2020-01-26T14:36:00.849Z] [runtime-status] [18684] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:36:00.850Z] [runtime-status] [18684] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:36:00.869Z] [worker-~diagnostic~-79cb2148-ea1d-455e-91ec-0030a8afd590]: exited
+[debug] [2020-01-26T14:36:00.870Z] [worker-~diagnostic~-79cb2148-ea1d-455e-91ec-0030a8afd590]: FINISHED
+[debug] [2020-01-26T14:36:30.160Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:36:31.168Z] [worker-~diagnostic~-b779428d-5dc6-4479-bac5-f90579a91d7f]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\7888
+[debug] [2020-01-26T14:36:31.168Z] [worker-~diagnostic~-b779428d-5dc6-4479-bac5-f90579a91d7f]: BUSY
+[debug] [2020-01-26T14:36:31.561Z] [runtime-status] [7888] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:36:31.562Z] [runtime-status] [7888] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:36:31.582Z] [worker-~diagnostic~-b779428d-5dc6-4479-bac5-f90579a91d7f]: exited
+[debug] [2020-01-26T14:36:31.583Z] [worker-~diagnostic~-b779428d-5dc6-4479-bac5-f90579a91d7f]: FINISHED
+[debug] [2020-01-26T14:36:31.740Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:36:32.744Z] [worker-~diagnostic~-7ad06146-7a9d-41f2-ad55-fb683ed2e8d4]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\14608
+[debug] [2020-01-26T14:36:32.744Z] [worker-~diagnostic~-7ad06146-7a9d-41f2-ad55-fb683ed2e8d4]: BUSY
+[debug] [2020-01-26T14:36:33.121Z] [runtime-status] [14608] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:36:33.122Z] [runtime-status] [14608] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:36:33.140Z] [worker-~diagnostic~-7ad06146-7a9d-41f2-ad55-fb683ed2e8d4]: exited
+[debug] [2020-01-26T14:36:33.141Z] [worker-~diagnostic~-7ad06146-7a9d-41f2-ad55-fb683ed2e8d4]: FINISHED
+[debug] [2020-01-26T14:36:34.292Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:36:35.295Z] [worker-~diagnostic~-47c4d92e-7281-4fae-b9d5-f1b99c47b646]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\14096
+[debug] [2020-01-26T14:36:35.295Z] [worker-~diagnostic~-47c4d92e-7281-4fae-b9d5-f1b99c47b646]: BUSY
+[debug] [2020-01-26T14:36:35.658Z] [runtime-status] [14096] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:36:35.659Z] [runtime-status] [14096] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:36:35.679Z] [worker-~diagnostic~-47c4d92e-7281-4fae-b9d5-f1b99c47b646]: exited
+[debug] [2020-01-26T14:36:35.679Z] [worker-~diagnostic~-47c4d92e-7281-4fae-b9d5-f1b99c47b646]: FINISHED
+[debug] [2020-01-26T14:36:36.413Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:36:37.418Z] [worker-~diagnostic~-57652c5f-0ea3-4683-9b41-bbd4044463bf]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\23544
+[debug] [2020-01-26T14:36:37.418Z] [worker-~diagnostic~-57652c5f-0ea3-4683-9b41-bbd4044463bf]: BUSY
+[debug] [2020-01-26T14:36:37.773Z] [runtime-status] [23544] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:36:37.775Z] [runtime-status] [23544] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:36:37.800Z] [worker-~diagnostic~-57652c5f-0ea3-4683-9b41-bbd4044463bf]: exited
+[debug] [2020-01-26T14:36:37.800Z] [worker-~diagnostic~-57652c5f-0ea3-4683-9b41-bbd4044463bf]: FINISHED
+[debug] [2020-01-26T14:37:38.304Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:37:39.311Z] [worker-~diagnostic~-cb8fb8f2-77f4-410a-aea8-1946731d162c]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\16892
+[debug] [2020-01-26T14:37:39.312Z] [worker-~diagnostic~-cb8fb8f2-77f4-410a-aea8-1946731d162c]: BUSY
+[debug] [2020-01-26T14:37:39.686Z] [runtime-status] [16892] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:37:39.688Z] [runtime-status] [16892] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:37:39.707Z] [worker-~diagnostic~-cb8fb8f2-77f4-410a-aea8-1946731d162c]: exited
+[debug] [2020-01-26T14:37:39.707Z] [worker-~diagnostic~-cb8fb8f2-77f4-410a-aea8-1946731d162c]: FINISHED
+[debug] [2020-01-26T14:37:40.708Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:37:41.711Z] [worker-~diagnostic~-dc8de5a4-b6cf-4971-ae83-37c877ed1024]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\17372
+[debug] [2020-01-26T14:37:41.711Z] [worker-~diagnostic~-dc8de5a4-b6cf-4971-ae83-37c877ed1024]: BUSY
+[debug] [2020-01-26T14:37:42.085Z] [runtime-status] [17372] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:37:42.086Z] [runtime-status] [17372] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:37:42.110Z] [worker-~diagnostic~-dc8de5a4-b6cf-4971-ae83-37c877ed1024]: exited
+[debug] [2020-01-26T14:37:42.110Z] [worker-~diagnostic~-dc8de5a4-b6cf-4971-ae83-37c877ed1024]: FINISHED
+[debug] [2020-01-26T14:37:42.881Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:37:43.884Z] [worker-~diagnostic~-06fa97ee-d8b0-4481-967e-628557a6165c]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\21764
+[debug] [2020-01-26T14:37:43.884Z] [worker-~diagnostic~-06fa97ee-d8b0-4481-967e-628557a6165c]: BUSY
+[debug] [2020-01-26T14:37:44.176Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:37:44.278Z] [runtime-status] [21764] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:37:44.280Z] [runtime-status] [21764] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:37:44.299Z] [worker-~diagnostic~-06fa97ee-d8b0-4481-967e-628557a6165c]: exited
+[debug] [2020-01-26T14:37:44.299Z] [worker-~diagnostic~-06fa97ee-d8b0-4481-967e-628557a6165c]: FINISHED
+[debug] [2020-01-26T14:37:45.179Z] [worker-~diagnostic~-a89a1c56-89c4-4147-ae63-dc1410627325]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\15780
+[debug] [2020-01-26T14:37:45.179Z] [worker-~diagnostic~-a89a1c56-89c4-4147-ae63-dc1410627325]: BUSY
+[debug] [2020-01-26T14:37:45.548Z] [runtime-status] [15780] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:37:45.550Z] [runtime-status] [15780] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:37:45.570Z] [worker-~diagnostic~-a89a1c56-89c4-4147-ae63-dc1410627325]: exited
+[debug] [2020-01-26T14:37:45.570Z] [worker-~diagnostic~-a89a1c56-89c4-4147-ae63-dc1410627325]: FINISHED
+[debug] [2020-01-26T14:39:04.848Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:39:05.852Z] [worker-~diagnostic~-b112aa6a-b46c-4017-b116-df2a7cfdcbf0]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\10316
+[debug] [2020-01-26T14:39:05.852Z] [worker-~diagnostic~-b112aa6a-b46c-4017-b116-df2a7cfdcbf0]: BUSY
+[debug] [2020-01-26T14:39:06.209Z] [runtime-status] [10316] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:39:06.210Z] [runtime-status] [10316] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:39:06.228Z] [worker-~diagnostic~-b112aa6a-b46c-4017-b116-df2a7cfdcbf0]: exited
+[debug] [2020-01-26T14:39:06.228Z] [worker-~diagnostic~-b112aa6a-b46c-4017-b116-df2a7cfdcbf0]: FINISHED
+[debug] [2020-01-26T14:40:27.178Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:40:28.181Z] [worker-~diagnostic~-1b991824-7fcc-4672-a750-928a1e92ad6f]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\22704
+[debug] [2020-01-26T14:40:28.182Z] [worker-~diagnostic~-1b991824-7fcc-4672-a750-928a1e92ad6f]: BUSY
+[debug] [2020-01-26T14:40:28.551Z] [runtime-status] [22704] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:40:28.552Z] [runtime-status] [22704] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:40:28.571Z] [worker-~diagnostic~-1b991824-7fcc-4672-a750-928a1e92ad6f]: exited
+[debug] [2020-01-26T14:40:28.571Z] [worker-~diagnostic~-1b991824-7fcc-4672-a750-928a1e92ad6f]: FINISHED
+[debug] [2020-01-26T14:40:37.917Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:40:38.921Z] [worker-~diagnostic~-a82944ff-0213-481a-8799-f507c861cffc]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\22504
+[debug] [2020-01-26T14:40:38.921Z] [worker-~diagnostic~-a82944ff-0213-481a-8799-f507c861cffc]: BUSY
+[debug] [2020-01-26T14:40:39.298Z] [runtime-status] [22504] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:40:39.299Z] [runtime-status] [22504] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:40:39.319Z] [worker-~diagnostic~-a82944ff-0213-481a-8799-f507c861cffc]: exited
+[debug] [2020-01-26T14:40:39.320Z] [worker-~diagnostic~-a82944ff-0213-481a-8799-f507c861cffc]: FINISHED
+[debug] [2020-01-26T14:40:55.607Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:40:56.612Z] [worker-~diagnostic~-a478e9ed-9db1-4483-b7a8-468596847d85]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\19952
+[debug] [2020-01-26T14:40:56.612Z] [worker-~diagnostic~-a478e9ed-9db1-4483-b7a8-468596847d85]: BUSY
+[debug] [2020-01-26T14:40:56.976Z] [runtime-status] [19952] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:40:56.978Z] [runtime-status] [19952] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:40:56.997Z] [worker-~diagnostic~-a478e9ed-9db1-4483-b7a8-468596847d85]: exited
+[debug] [2020-01-26T14:40:56.997Z] [worker-~diagnostic~-a478e9ed-9db1-4483-b7a8-468596847d85]: FINISHED
+[debug] [2020-01-26T14:41:19.770Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\handlers\todos.js changed, reloading triggers
+[debug] [2020-01-26T14:41:20.774Z] [worker-~diagnostic~-31d753c5-c7aa-4ca1-8636-0c4261bf82b9]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\3892
+[debug] [2020-01-26T14:41:20.774Z] [worker-~diagnostic~-31d753c5-c7aa-4ca1-8636-0c4261bf82b9]: BUSY
+[debug] [2020-01-26T14:41:21.128Z] [runtime-status] [3892] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:41:21.130Z] [runtime-status] [3892] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:41:21.150Z] [worker-~diagnostic~-31d753c5-c7aa-4ca1-8636-0c4261bf82b9]: exited
+[debug] [2020-01-26T14:41:21.150Z] [worker-~diagnostic~-31d753c5-c7aa-4ca1-8636-0c4261bf82b9]: FINISHED
+[debug] [2020-01-26T14:41:43.757Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:41:44.762Z] [worker-~diagnostic~-7b173cd0-13e9-4dd5-a50e-7b585a6705a6]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\148
+[debug] [2020-01-26T14:41:44.762Z] [worker-~diagnostic~-7b173cd0-13e9-4dd5-a50e-7b585a6705a6]: BUSY
+[debug] [2020-01-26T14:41:45.140Z] [runtime-status] [148] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:41:45.141Z] [runtime-status] [148] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:41:45.161Z] [worker-~diagnostic~-7b173cd0-13e9-4dd5-a50e-7b585a6705a6]: exited
+[debug] [2020-01-26T14:41:45.161Z] [worker-~diagnostic~-7b173cd0-13e9-4dd5-a50e-7b585a6705a6]: FINISHED
+[debug] [2020-01-26T14:42:04.053Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:42:05.057Z] [worker-~diagnostic~-44d960ee-e2c8-4c6b-a2c4-24128b25e4c5]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\308
+[debug] [2020-01-26T14:42:05.057Z] [worker-~diagnostic~-44d960ee-e2c8-4c6b-a2c4-24128b25e4c5]: BUSY
+[debug] [2020-01-26T14:42:05.412Z] [runtime-status] [308] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:42:05.414Z] [runtime-status] [308] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:42:05.433Z] [worker-~diagnostic~-44d960ee-e2c8-4c6b-a2c4-24128b25e4c5]: exited
+[debug] [2020-01-26T14:42:05.433Z] [worker-~diagnostic~-44d960ee-e2c8-4c6b-a2c4-24128b25e4c5]: FINISHED
+[debug] [2020-01-26T14:42:05.723Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:42:06.727Z] [worker-~diagnostic~-02af7940-1eca-46e1-adac-d75ad5a7f606]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\5096
+[debug] [2020-01-26T14:42:06.727Z] [worker-~diagnostic~-02af7940-1eca-46e1-adac-d75ad5a7f606]: BUSY
+[debug] [2020-01-26T14:42:07.097Z] [runtime-status] [5096] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:42:07.099Z] [runtime-status] [5096] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:42:07.118Z] [worker-~diagnostic~-02af7940-1eca-46e1-adac-d75ad5a7f606]: exited
+[debug] [2020-01-26T14:42:07.118Z] [worker-~diagnostic~-02af7940-1eca-46e1-adac-d75ad5a7f606]: FINISHED
+[debug] [2020-01-26T14:42:08.468Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:42:09.474Z] [worker-~diagnostic~-cbf4d097-3c63-4119-ad12-d36c7fbd0166]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\19664
+[debug] [2020-01-26T14:42:09.474Z] [worker-~diagnostic~-cbf4d097-3c63-4119-ad12-d36c7fbd0166]: BUSY
+[debug] [2020-01-26T14:42:09.891Z] [runtime-status] [19664] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:42:09.893Z] [runtime-status] [19664] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:42:09.911Z] [worker-~diagnostic~-cbf4d097-3c63-4119-ad12-d36c7fbd0166]: exited
+[debug] [2020-01-26T14:42:09.911Z] [worker-~diagnostic~-cbf4d097-3c63-4119-ad12-d36c7fbd0166]: FINISHED
+[debug] [2020-01-26T14:42:28.400Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:42:29.404Z] [worker-~diagnostic~-e4e9f6a0-9796-4152-8818-52568d70b788]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\20492
+[debug] [2020-01-26T14:42:29.404Z] [worker-~diagnostic~-e4e9f6a0-9796-4152-8818-52568d70b788]: BUSY
+[debug] [2020-01-26T14:42:29.782Z] [runtime-status] [20492] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:42:29.784Z] [runtime-status] [20492] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:42:29.803Z] [worker-~diagnostic~-e4e9f6a0-9796-4152-8818-52568d70b788]: exited
+[debug] [2020-01-26T14:42:29.803Z] [worker-~diagnostic~-e4e9f6a0-9796-4152-8818-52568d70b788]: FINISHED
+[debug] [2020-01-26T14:43:40.453Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:43:41.460Z] [worker-~diagnostic~-7b1c329b-7eb6-4108-926a-de92fb980da6]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\9872
+[debug] [2020-01-26T14:43:41.460Z] [worker-~diagnostic~-7b1c329b-7eb6-4108-926a-de92fb980da6]: BUSY
+[debug] [2020-01-26T14:43:41.984Z] [runtime-status] [9872] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:43:41.986Z] [runtime-status] [9872] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:43:42.008Z] [worker-~diagnostic~-7b1c329b-7eb6-4108-926a-de92fb980da6]: exited
+[debug] [2020-01-26T14:43:42.008Z] [worker-~diagnostic~-7b1c329b-7eb6-4108-926a-de92fb980da6]: FINISHED
+[debug] [2020-01-26T14:44:48.438Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:44:49.441Z] [worker-~diagnostic~-5a7448fe-b9bf-4943-ac0a-a32fd6ffb2e4]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\5532
+[debug] [2020-01-26T14:44:49.441Z] [worker-~diagnostic~-5a7448fe-b9bf-4943-ac0a-a32fd6ffb2e4]: BUSY
+[debug] [2020-01-26T14:44:49.852Z] [runtime-status] [5532] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:44:49.853Z] [runtime-status] [5532] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:44:49.873Z] [worker-~diagnostic~-5a7448fe-b9bf-4943-ac0a-a32fd6ffb2e4]: exited
+[debug] [2020-01-26T14:44:49.873Z] [worker-~diagnostic~-5a7448fe-b9bf-4943-ac0a-a32fd6ffb2e4]: FINISHED
+[debug] [2020-01-26T14:44:55.994Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:44:56.997Z] [worker-~diagnostic~-7f6b7133-6067-483c-8db2-bbc01453aa64]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\18072
+[debug] [2020-01-26T14:44:56.997Z] [worker-~diagnostic~-7f6b7133-6067-483c-8db2-bbc01453aa64]: BUSY
+[debug] [2020-01-26T14:44:57.366Z] [runtime-status] [18072] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:44:57.368Z] [runtime-status] [18072] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:44:57.387Z] [worker-~diagnostic~-7f6b7133-6067-483c-8db2-bbc01453aa64]: exited
+[debug] [2020-01-26T14:44:57.387Z] [worker-~diagnostic~-7f6b7133-6067-483c-8db2-bbc01453aa64]: FINISHED
+[debug] [2020-01-26T14:45:01.225Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:45:02.229Z] [worker-~diagnostic~-5337d679-7b62-40f1-9141-17695f9906b1]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\15932
+[debug] [2020-01-26T14:45:02.229Z] [worker-~diagnostic~-5337d679-7b62-40f1-9141-17695f9906b1]: BUSY
+[debug] [2020-01-26T14:45:02.645Z] [runtime-status] [15932] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:45:02.648Z] [runtime-status] [15932] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:45:02.668Z] [worker-~diagnostic~-5337d679-7b62-40f1-9141-17695f9906b1]: exited
+[debug] [2020-01-26T14:45:02.668Z] [worker-~diagnostic~-5337d679-7b62-40f1-9141-17695f9906b1]: FINISHED
+[debug] [2020-01-26T14:45:05.005Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:45:06.010Z] [worker-~diagnostic~-b79203ef-ca00-465b-8f06-30dd3d6f7570]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\16604
+[debug] [2020-01-26T14:45:06.010Z] [worker-~diagnostic~-b79203ef-ca00-465b-8f06-30dd3d6f7570]: BUSY
+[debug] [2020-01-26T14:45:06.384Z] [runtime-status] [16604] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:45:06.386Z] [runtime-status] [16604] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:45:06.405Z] [worker-~diagnostic~-b79203ef-ca00-465b-8f06-30dd3d6f7570]: exited
+[debug] [2020-01-26T14:45:06.405Z] [worker-~diagnostic~-b79203ef-ca00-465b-8f06-30dd3d6f7570]: FINISHED
+[debug] [2020-01-26T14:45:28.884Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:45:29.888Z] [worker-~diagnostic~-fdbb8284-ee4f-4f2b-a7d8-ee15695bf35b]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\20188
+[debug] [2020-01-26T14:45:29.888Z] [worker-~diagnostic~-fdbb8284-ee4f-4f2b-a7d8-ee15695bf35b]: BUSY
+[debug] [2020-01-26T14:45:30.269Z] [runtime-status] [20188] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:45:30.270Z] [runtime-status] [20188] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:45:30.288Z] [worker-~diagnostic~-fdbb8284-ee4f-4f2b-a7d8-ee15695bf35b]: exited
+[debug] [2020-01-26T14:45:30.288Z] [worker-~diagnostic~-fdbb8284-ee4f-4f2b-a7d8-ee15695bf35b]: FINISHED
+[debug] [2020-01-26T14:45:41.071Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:45:42.075Z] [worker-~diagnostic~-e649c96c-a878-4e06-bc11-e7fb7f24341c]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\10556
+[debug] [2020-01-26T14:45:42.075Z] [worker-~diagnostic~-e649c96c-a878-4e06-bc11-e7fb7f24341c]: BUSY
+[debug] [2020-01-26T14:45:42.451Z] [runtime-status] [10556] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:45:42.453Z] [runtime-status] [10556] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:45:42.473Z] [worker-~diagnostic~-e649c96c-a878-4e06-bc11-e7fb7f24341c]: exited
+[debug] [2020-01-26T14:45:42.473Z] [worker-~diagnostic~-e649c96c-a878-4e06-bc11-e7fb7f24341c]: FINISHED
+[debug] [2020-01-26T14:45:58.289Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T14:45:58.291Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Badi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-01-26T14:45:58.291Z] CLI Version:   7.10.0
+[debug] [2020-01-26T14:45:58.291Z] Platform:      win32
+[debug] [2020-01-26T14:45:58.291Z] Node Version:  v10.15.3
+[debug] [2020-01-26T14:45:58.293Z] Time:          Sun Jan 26 2020 16:45:58 GMT+0200 (Eastern European Standard Time)
+[debug] [2020-01-26T14:45:58.293Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T14:45:58.293Z] 
+[debug] [2020-01-26T14:45:58.302Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-26T14:45:58.302Z] > authorizing via signed-in user
+[debug] [2020-01-26T14:45:58.302Z] [iam] checking project todolist-c3c8f for permissions ["firebase.projects.get"]
+[debug] [2020-01-26T14:45:58.303Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/todolist-c3c8f:testIamPermissions  
+
+[debug] [2020-01-26T14:45:58.800Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-26T14:45:58.802Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/todolist-c3c8f  
+ 
+[debug] [2020-01-26T14:45:59.398Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\WORK\GITHUB Workspace\todo_list_api'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\WORK\GITHUB Workspace\todo_list_api\functions" for Cloud Functions...
+[debug] [2020-01-26T14:46:01.930Z] [worker-~diagnostic~-3f1585eb-77b7-43ac-92d2-4a270f0ba900]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\9164
+[debug] [2020-01-26T14:46:01.931Z] [worker-~diagnostic~-3f1585eb-77b7-43ac-92d2-4a270f0ba900]: BUSY
+[debug] [2020-01-26T14:46:02.311Z] [runtime-status] [9164] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:46:02.312Z] [runtime-status] [9164] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:46:02.331Z] [worker-~diagnostic~-3f1585eb-77b7-43ac-92d2-4a270f0ba900]: exited
+[debug] [2020-01-26T14:46:02.331Z] [worker-~diagnostic~-3f1585eb-77b7-43ac-92d2-4a270f0ba900]: FINISHED
+[debug] [2020-01-26T14:47:24.849Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:47:25.863Z] [worker-~diagnostic~-bd68befb-455c-4199-894f-31879793daee]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\11872
+[debug] [2020-01-26T14:47:25.863Z] [worker-~diagnostic~-bd68befb-455c-4199-894f-31879793daee]: BUSY
+[debug] [2020-01-26T14:47:26.253Z] [runtime-status] [11872] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:47:26.255Z] [runtime-status] [11872] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:47:26.273Z] [worker-~diagnostic~-bd68befb-455c-4199-894f-31879793daee]: exited
+[debug] [2020-01-26T14:47:26.273Z] [worker-~diagnostic~-bd68befb-455c-4199-894f-31879793daee]: FINISHED
+[debug] [2020-01-26T14:48:12.319Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:48:13.327Z] [worker-~diagnostic~-d0fe1bce-3e03-4d49-a2f1-750bec86c759]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\17708
+[debug] [2020-01-26T14:48:13.327Z] [worker-~diagnostic~-d0fe1bce-3e03-4d49-a2f1-750bec86c759]: BUSY
+[debug] [2020-01-26T14:48:13.701Z] [runtime-status] [17708] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:48:13.702Z] [runtime-status] [17708] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:48:13.721Z] [worker-~diagnostic~-d0fe1bce-3e03-4d49-a2f1-750bec86c759]: exited
+[debug] [2020-01-26T14:48:13.721Z] [worker-~diagnostic~-d0fe1bce-3e03-4d49-a2f1-750bec86c759]: FINISHED
+[debug] [2020-01-26T14:48:14.400Z] File C:\WORK\GITHUB Workspace\todo_list_api\functions\index.js changed, reloading triggers
+[debug] [2020-01-26T14:48:15.404Z] [worker-~diagnostic~-036c4419-1eb6-4f55-9f5e-42b81320ecbd]: Assigning socketPath: \\?\pipe\C:\WORK\GITHUB Workspace\todo_list_api\functions\16648
+[debug] [2020-01-26T14:48:15.404Z] [worker-~diagnostic~-036c4419-1eb6-4f55-9f5e-42b81320ecbd]: BUSY
+[debug] [2020-01-26T14:48:15.766Z] [runtime-status] [16648] Functions runtime initialized. {"cwd":"C:\\WORK\\GITHUB Workspace\\todo_list_api\\functions","node_version":"10.15.3"}
+[debug] [2020-01-26T14:48:15.767Z] [runtime-status] [16648] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-01-26T14:48:15.786Z] [worker-~diagnostic~-036c4419-1eb6-4f55-9f5e-42b81320ecbd]: exited
+[debug] [2020-01-26T14:48:15.786Z] [worker-~diagnostic~-036c4419-1eb6-4f55-9f5e-42b81320ecbd]: FINISHED
